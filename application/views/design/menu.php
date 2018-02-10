@@ -31,7 +31,7 @@
 
 						echo '<li class="dropdown">';
 						echo '<a href="'.base_url().''.$row->link.'" class="dropdown-toggle" data-toggle="dropdown">';
-						echo '<i class="'.$row->icon.'"></i> <span>'.$row->nama_menu.'</span> <i class="fa fa-angle-left pull-right"></i>';
+						echo '<i class="'.$row->icon.'"></i> <span>'.$row->nama_menu.'</span> <i class="fa fa-sort-down pull-right"></i>';
 						echo '</a>';
 						echo '<ul class="dropdown-menu" role="menu">';
 
@@ -69,7 +69,7 @@
 
 					<li class="dropdown">
 					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<span class="fa fa-user-secret"></span>  Administrator  <span class="fa fa-angle-right pull-right"></span>
+						<span class="fa fa-user-secret"></span>  Administrator  <span class="fa fa-sort-down pull-right"></span>
 					  </a>
 					  <ul class="dropdown-menu">
 						<li><a href="<?=base_url('users');?>"><i class="fa fa-user-plus"></i> <span>Management User</span></a></li>
